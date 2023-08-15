@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+
+body{
+  height: 100vh;
+  background-color: rgba(11, 36, 52, 1);
+  font-family: Karla, sans-serif;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 70rem;
+  height: 50rem;
+  position: relative;
+}
+
+.rolls-count-container{
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.rolls-count{
+  position: absolute;
+  top: 6rem;
+}
+
+.dice-container{
+  display: grid;
+  grid-template-columns: repeat(5, 10rem);
+  grid-template-rows: repeat(2, 10rem);
+}
+
+.die{
+  font-family: Karla, sans-serif;
+  font-weight: 600;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+  background-color: white;
+  box-shadow: rgba(104, 104, 104, 0.288) 0px 2px 8px 0px;  
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+
+.blue-btn{
+  font-family: Karla, sans-serif;
+  font-size: 2rem;
+  color: white;
+  padding: 15px 45px;
+  box-shadow: rgba(77, 77, 77, 0.322) 0px 2px 8px 0px;  
+  background-color: #5035FF;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+
+.blue-btn:hover{
+  background-color:rgb(113, 91, 252)
+}
